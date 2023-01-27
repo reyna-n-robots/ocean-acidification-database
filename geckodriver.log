@@ -423,12 +423,13 @@ JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\r
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\reyna\AppData\Local\Temp\rust_mozprofile3RJ7hu\thumbnails) because it does not exist
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\reyna\AppData\Local\Temp\rust_mozprofile3RJ7hu\thumbnails) because it does not exist
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\reyna\AppData\Local\Temp\rust_mozprofile3RJ7hu\thumbnails) because it does not exist
-fileGwrMOF\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://127.0.0.1:62527/devtools/browser/965b5e55-411d-477f-bf5b-bb2c175dc800
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
-1674769546264	Marionette	INFO	Stopped listening on port 62536
+console.error: "Unable to find target with innerWindowId:4294967299"
+console.error: "Unable to find target with innerWindowId:4294967299"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674845532280	Marionette	INFO	Stopped listening on port 62408
+Dynamically enable window occlusion 1
+FO	Stopped listening on port 62536
 Dynamically enable window occlusion 1
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 1674769838084	geckodriver	INFO	Listening on 127.0.0.1:58170
@@ -745,5 +746,606 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: http://e
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
 1674843460141	Marionette	INFO	Stopped listening on port 55205
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674844029590	geckodriver	INFO	Listening on 127.0.0.1:54352
+1674844032632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile2IFf41"
+1674844032998	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674844033003	Marionette	INFO	Listening on port 54360
+Read port: 54360
+WebDriver BiDi listening on ws://127.0.0.1:54353
+1674844033140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile2IFf41\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54353/devtools/browser/2cbb686c-cea3-4725-9f0e-37ae507c07ea
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674844832281	Marionette	INFO	Stopped listening on port 54360
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileqHmG4i"
+1674844061947	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674844061953	Marionette	INFO	Listening on port 54417
+Read port: 54417
+WebDriver BiDi listening on ws://127.0.0.1:54410
+1674844062091	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileqHmG4i\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54410/devtools/browser/82365f48-2211-4c8b-920d-8efe79cd0ff8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674844069767	Marionette	INFO	Stopped listening on port 54417
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674844089440	geckodriver	INFO	Listening on 127.0.0.1:54464
+1674844092485	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54465" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilerE8CoA"
+1674844092845	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674844092850	Marionette	INFO	Listening on port 54473
+Read port: 54473
+WebDriver BiDi listening on ws://127.0.0.1:54465
+1674844093058	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilerE8CoA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54465/devtools/browser/10d0418b-17e5-45f7-91de-c47fe3a79b56
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674844833231	Marionette	INFO	Stopped listening on port 54473
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilemnpVef"
+1674844353191	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674844353197	Marionette	INFO	Listening on port 54601
+Read port: 54601
+WebDriver BiDi listening on ws://127.0.0.1:54592
+1674844353334	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilemnpVef\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54592/devtools/browser/91d9ecfc-adef-4ff9-91a4-9c2fd6bed2da
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674844834409	Marionette	INFO	Stopped listening on port 54601
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileimU123"
+1674844785636	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674844785642	Marionette	INFO	Listening on port 54791
+Read port: 54791
+WebDriver BiDi listening on ws://127.0.0.1:54784
+1674844785779	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileimU123\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54784/devtools/browser/acc5b260-dc2b-405f-8bf3-a91ab6622934
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674844835424	Marionette	INFO	Stopped listening on port 54791
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileO2Ohzj"
+1674844809996	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674844810000	Marionette	INFO	Listening on port 54846
+WebDriver BiDi listening on ws://127.0.0.1:54839
+Read port: 54846
+1674844810231	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileO2Ohzj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54839/devtools/browser/f934b90d-7225-41dc-8f87-cfc7dd537cc2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674844827634	Marionette	INFO	Stopped listening on port 54846
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674844858625	geckodriver	INFO	Listening on 127.0.0.1:54907
+1674844861717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54908" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile5Coa1m"
+1674844862102	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674844862108	Marionette	INFO	Listening on port 54915
+Read port: 54915
+WebDriver BiDi listening on ws://127.0.0.1:54908
+1674844862234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile5Coa1m\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54908/devtools/browser/ea1da40e-cedf-4f37-9c8f-54b64c5f88ce
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+SourceActor threw an exception: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=838965&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2836701&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2836701. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:557:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 557, column: 16
+console.error: (new Error("Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=838965&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2836701&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2836701. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 557))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 557: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=838965&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2836701&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2836701. Code 2152398879.
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 701))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674845314103	Marionette	INFO	Stopped listening on port 54915
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674845543706	geckodriver	INFO	Listening on 127.0.0.1:55215
+1674845546755	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55216" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilei21C9N"
+1674845547140	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674845547144	Marionette	INFO	Listening on port 55224
+Read port: 55224
+WebDriver BiDi listening on ws://127.0.0.1:55216
+1674845547272	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilei21C9N\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55216/devtools/browser/102fc6c4-2683-4608-beac-90162e8e1fd8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+SourceActor threw an exception: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=838970&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2836801&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2836801. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:557:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 557, column: 16
+console.error: (new Error("Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=838970&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2836801&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2836801. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 557))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 557: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=838970&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2836801&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2836801. Code 2152398879.
+1674845899665	geckodriver	INFO	Listening on 127.0.0.1:55337
+1674845902732	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55338" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileMgcTWw"
+1674845903173	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674845903179	Marionette	INFO	Listening on port 55345
+WebDriver BiDi listening on ws://127.0.0.1:55338
+Read port: 55345
+1674845903443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileMgcTWw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55338/devtools/browser/499daf9c-a0a4-47a9-ada4-73138f27bc93
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674845910250	Marionette	INFO	Stopped listening on port 55345
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 3096, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:777
+1674845930168	geckodriver	INFO	Listening on 127.0.0.1:55414
+1674845933248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55415" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile8gk6YY"
+1674845933618	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674845933623	Marionette	INFO	Listening on port 55422
+Read port: 55422
+WebDriver BiDi listening on ws://127.0.0.1:55415
+1674845933764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile8gk6YY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55415/devtools/browser/e30f969e-a782-46ee-ae4e-e5a842313039
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674845960857	Marionette	INFO	Stopped listening on port 55422
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674846129540	geckodriver	INFO	Listening on 127.0.0.1:56000
+1674846132637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56001" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileta8HWB"
+1674846132998	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674846133003	Marionette	INFO	Listening on port 56008
+Read port: 56008
+WebDriver BiDi listening on ws://127.0.0.1:56001
+1674846133174	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileta8HWB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56001/devtools/browser/e37e145c-e865-4ba5-a8ed-75cbf4105dd3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674846310376	geckodriver	INFO	Listening on 127.0.0.1:56078
+1674846313472	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56079" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileySv092"
+1674846313836	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674846313841	Marionette	INFO	Listening on port 56086
+Read port: 56086
+WebDriver BiDi listening on ws://127.0.0.1:56079
+1674846313965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileySv092\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56079/devtools/browser/1f91ed3c-405d-4c43-ac99-46c505f0b48f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674846385423	Marionette	INFO	Stopped listening on port 56086
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674846389562	geckodriver	INFO	Listening on 127.0.0.1:56173
+1674846392624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56174" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileJHTjMA"
+1674846392997	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674846393002	Marionette	INFO	Listening on port 56181
+Read port: 56181
+WebDriver BiDi listening on ws://127.0.0.1:56174
+1674846393136	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileJHTjMA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56174/devtools/browser/f7a15e2b-30a7-432d-bf88-e887f4441f38
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674846455843	Marionette	INFO	Stopped listening on port 56181
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileMDXPi7"
+1674846436256	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674846436261	Marionette	INFO	Listening on port 56246
+Read port: 56246
+WebDriver BiDi listening on ws://127.0.0.1:56239
+1674846436412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileMDXPi7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56239/devtools/browser/0b819878-566c-46d9-a30f-5b6a60649e8d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674846456630	Marionette	INFO	Stopped listening on port 56246
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674846458852	geckodriver	INFO	Listening on 127.0.0.1:56311
+1674846461933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56312" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileZxz5GP"
+1674846462330	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674846462335	Marionette	INFO	Listening on port 56319
+Read port: 56319
+WebDriver BiDi listening on ws://127.0.0.1:56312
+1674846462481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileZxz5GP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56312/devtools/browser/c19fd2c0-53d9-4ec8-81b7-9e12e06dfaf7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674846466358	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+SourceActor threw an exception: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839005&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2837501&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2837501. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:557:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 557, column: 16
+console.error: (new Error("Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839005&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2837501&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2837501. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 557))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 557: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839005&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2837501&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2837501. Code 2152398879.
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 701))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674847961097	Marionette	INFO	Stopped listening on port 56319
+Dynamically enable window occlusion 1
+" "--marionette" "--remote-debugging-port" "64567" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileZRRHBw"
+1674846951724	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674846951730	Marionette	INFO	Listening on port 64574
+Read port: 64574
+WebDriver BiDi listening on ws://127.0.0.1:64567
+1674846951865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileZRRHBw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64567/devtools/browser/9c90a75e-e2e6-495a-9ff2-1daa459385a7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674847467675	Marionette	INFO	Stopped listening on port 64574
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileToTJRG"
+1674847118582	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674847118587	Marionette	INFO	Listening on port 64652
+Read port: 64652
+WebDriver BiDi listening on ws://127.0.0.1:64645
+1674847118715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileToTJRG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64645/devtools/browser/4e26b40d-99d4-4b13-b714-1a88ebe3cac6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674847468666	Marionette	INFO	Stopped listening on port 64652
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilewFgHIw"
+1674847226238	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674847226244	Marionette	INFO	Listening on port 64733
+Read port: 64733
+WebDriver BiDi listening on ws://127.0.0.1:64726
+1674847226386	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilewFgHIw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64726/devtools/browser/d82d864f-ab22-417d-87b7-1ce3bf6d72ab
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674847469834	Marionette	INFO	Stopped listening on port 64733
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileg285pb"
+1674847339249	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674847339254	Marionette	INFO	Listening on port 64812
+Read port: 64812
+WebDriver BiDi listening on ws://127.0.0.1:64805
+1674847339384	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileg285pb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:64805/devtools/browser/9849477f-b974-462b-aae5-a1d16355c626
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674847470623	Marionette	INFO	Stopped listening on port 64812
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileLU1yxt"
+1674847449415	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674847449421	Marionette	INFO	Listening on port 65185
+Read port: 65185
+WebDriver BiDi listening on ws://127.0.0.1:65174
+1674847449571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileLU1yxt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65174/devtools/browser/cec230d0-ef23-4825-8032-c934f5c25d00
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674847465311	Marionette	INFO	Stopped listening on port 65185
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674847967022	geckodriver	INFO	Listening on 127.0.0.1:61191
+1674847970115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61192" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileNfVwJ9"
+1674847970475	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674847970481	Marionette	INFO	Listening on port 61199
+Read port: 61199
+WebDriver BiDi listening on ws://127.0.0.1:61192
+1674847970636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileNfVwJ9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61192/devtools/browser/576ad16f-4a77-45f7-a759-0715ad62743c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+SourceActor threw an exception: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839040&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838201&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838201. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:557:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 557, column: 16
+console.error: (new Error("Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839040&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838201&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838201. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 557))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 557: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839040&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838201&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838201. Code 2152398879.
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674848621388	geckodriver	INFO	Listening on 127.0.0.1:55403
+1674848624475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55408" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileHo6UhK"
+1674848624822	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674848624827	Marionette	INFO	Listening on port 55415
+WebDriver BiDi listening on ws://127.0.0.1:55408
+Read port: 55415
+1674848624986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileHo6UhK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55408/devtools/browser/4557db76-3d45-47c0-86c1-38a6730e1ff0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674854757354	geckodriver	INFO	Listening on 127.0.0.1:49568
+1674854760433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49569" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileKfbBF7"
+1674854760974	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674854760980	Marionette	INFO	Listening on port 49576
+Read port: 49576
+WebDriver BiDi listening on ws://127.0.0.1:49569
+1674854761106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileKfbBF7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49569/devtools/browser/439b756c-6a4c-46e7-b619-ec8201a96c16
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674854794728	geckodriver	INFO	Listening on 127.0.0.1:49631
+1674854797802	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49632" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileO0FWQT"
+1674854798157	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674854798162	Marionette	INFO	Listening on port 49639
+Read port: 49639
+WebDriver BiDi listening on ws://127.0.0.1:49632
+1674854798332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileO0FWQT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49632/devtools/browser/0224bd1a-b9b3-4b5e-a519-64d69d47b4ae
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674854845217	geckodriver	INFO	Listening on 127.0.0.1:49714
+1674854848279	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofiletQLG9j"
+1674854848637	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674854848642	Marionette	INFO	Listening on port 49724
+Read port: 49724
+WebDriver BiDi listening on ws://127.0.0.1:49715
+1674854848803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofiletQLG9j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49715/devtools/browser/035e47f4-f623-44ed-a7fe-1c865b0a2ac6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+SourceActor threw an exception: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839058&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838601&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838601. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:557:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 557, column: 16
+console.error: (new Error("Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839058&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838601&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838601. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 557))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 557: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839058&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838601&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838601. Code 2152398879.
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 701))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674856702013	Marionette	INFO	Stopped listening on port 49724
+Dynamically enable window occlusion 1
+
+Read port: 59038
+WebDriver BiDi listening on ws://127.0.0.1:59031
+1674854945689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileezzNWu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59031/devtools/browser/d992c5a2-5fa7-46b8-b313-94ef9343a21f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674856074138	Marionette	INFO	Stopped listening on port 59038
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile0MoGPv"
+1674855459386	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674855459391	Marionette	INFO	Listening on port 59285
+Read port: 59285
+WebDriver BiDi listening on ws://127.0.0.1:59278
+1674855459535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile0MoGPv\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59278/devtools/browser/9cf69a2e-849e-4386-ba8e-55a7eaf12ad2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+SourceActor threw an exception: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839068&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838801&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838801. Code 2152398879.
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:557:16
+onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
+Line: 557, column: 16
+console.error: (new Error("Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839068&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838801&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838801. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 557))
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 557: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839068&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838801&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838801. Code 2152398879.
+1674855640424	geckodriver	INFO	Listening on 127.0.0.1:59368
+1674855643486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileinpVdP"
+1674855643899	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674855643906	Marionette	INFO	Listening on port 59376
+Read port: 59376
+WebDriver BiDi listening on ws://127.0.0.1:59369
+1674855644045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileinpVdP\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59369/devtools/browser/74c9bd71-ddee-4fb2-acca-ca3f0e67227b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674856075330	Marionette	INFO	Stopped listening on port 59376
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileI988gU"
+1674855966726	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674855966733	Marionette	INFO	Listening on port 59541
+Read port: 59541
+WebDriver BiDi listening on ws://127.0.0.1:59534
+1674855966869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileI988gU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59534/devtools/browser/93b7ede6-944d-4c03-bc75-4d68996c7ae3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674855974177	Marionette	INFO	Stopped listening on port 59541
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674855995964	geckodriver	INFO	Listening on 127.0.0.1:59601
+1674855999057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59602" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofiler4KMUZ"
+1674855999463	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674855999469	Marionette	INFO	Listening on port 59610
+Read port: 59610
+WebDriver BiDi listening on ws://127.0.0.1:59602
+1674855999624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofiler4KMUZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59602/devtools/browser/520fa383-246b-4c1b-a452-0d0fc6923fbb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674856007343	Marionette	INFO	Stopped listening on port 59610
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674856079244	geckodriver	INFO	Listening on 127.0.0.1:59719
+1674856082293	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59720" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile3LZPMs"
+1674856082661	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674856082666	Marionette	INFO	Listening on port 59727
+Read port: 59727
+WebDriver BiDi listening on ws://127.0.0.1:59720
+1674856082802	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile3LZPMs\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59720/devtools/browser/986ffbe3-4ac3-491e-91d0-06808b847772
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674856585445	Marionette	INFO	Stopped listening on port 59727
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilezTi1lz"
+1674856184879	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674856184884	Marionette	INFO	Listening on port 59813
+Read port: 59813
+WebDriver BiDi listening on ws://127.0.0.1:59806
+1674856185015	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofilezTi1lz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59806/devtools/browser/169e044a-282e-4b67-bdff-d5d291962f7f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674856195091	Marionette	INFO	Stopped listening on port 59813
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674856417479	geckodriver	INFO	Listening on 127.0.0.1:59916
+1674856420553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59917" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileDbY0xj"
+1674856420970	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674856420976	Marionette	INFO	Listening on port 59925
+Read port: 59925
+WebDriver BiDi listening on ws://127.0.0.1:59917
+1674856421140	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileDbY0xj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59917/devtools/browser/307fe9ad-9fa5-41de-bc77-3223dd1f4feb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674856586566	Marionette	INFO	Stopped listening on port 59925
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+e-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileYAoCpQ"
+1674856525165	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674856525171	Marionette	INFO	Listening on port 60033
+Read port: 60033
+WebDriver BiDi listening on ws://127.0.0.1:60021
+1674856525314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileYAoCpQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60021/devtools/browser/de7213fc-d858-4a45-96f3-3834521a611d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674856533515	Marionette	INFO	Stopped listening on port 60033
+Dynamically enable window occlusion 1
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1674856590670	geckodriver	INFO	Listening on 127.0.0.1:60094
+1674856593728	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60095" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile6cAXIi"
+1674856594119	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1674856594125	Marionette	INFO	Listening on port 60102
+Read port: 60102
+WebDriver BiDi listening on ws://127.0.0.1:60095
+1674856594266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofile6cAXIi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60095/devtools/browser/27b9189f-1ce0-417f-b20f-569b81809986
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://eos.ucs.uri.edu."
+1674856601282	Marionette	INFO	Stopped listening on port 60102
 Dynamically enable window occlusion 1
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
