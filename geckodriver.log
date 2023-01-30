@@ -1216,11 +1216,12 @@ onStopRequest@resource://gre/modules/NetUtil.jsm:126:18
 Line: 557, column: 16
 console.error: (new Error("Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839068&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838801&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838801. Code 2152398879.", "resource://devtools/shared/DevToolsUtils.js", 557))
 JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 557: Error: Failed to fetch http://eos.ucs.uri.edu/EOSWebOPAC/OPAC/Details/Record.aspx?IndexCode=-1&TaskCode=839068&HitCount=247&CollectionCode=2&SortDirection=Descending&CurrentPage=1&CurrentLinkCode=EOSMAIN|22695088|1|2838801&SelectionType=0&SearchType=2&BibCode=EOSMAIN|22695088|1|2838801. Code 2152398879.
-1674855640424	geckodriver	INFO	Listening on 127.0.0.1:59368
-1674855643486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\reyna\\AppData\\Local\\Temp\\rust_mozprofileinpVdP"
-1674855643899	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1674855643906	Marionette	INFO	Listening on port 59376
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 701))
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1674856766533	Marionette	INFO	Stopped listening on port 59285
+Dynamically enable window occlusion 1
+
 Read port: 59376
 WebDriver BiDi listening on ws://127.0.0.1:59369
 1674855644045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
