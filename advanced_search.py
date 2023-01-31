@@ -36,16 +36,35 @@ class Advanced_Search(unittest.TestCase):
         WebDriverWait(self.driver, 10).until(EC.presence_of_element_located((By.ID, 'ctl00_ctl00_webopacContentHolder_detailContent_BibliographicDetail_BibDetailRepeater_ctl01_DataCell')))
 
         entry = [0] * 13
+
+        long_id = 'ctl00_ctl00_webopacContentHolder_detailContent_BibliographicDetail_BibDetailRepeater_ctl'
         
         # works manually for now but will have to change to: stop reading when you hit "notes" --> break
-        # if labelcell text is blank then append to str not list -- this only needs to be applied to author names
         # if it's just numbers and not any other characters, convert back to int or float
         for i in range(1,14):
             if i < 10:
-                entry[i-1] = self.driver.find_element(By.ID, 'ctl00_ctl00_webopacContentHolder_detailContent_BibliographicDetail_BibDetailRepeater_ctl0'+ str(i) +'_DataCell').text
+                label = self.driver.find_element(By.ID, long_id + '0' + str(i) + '_LabelCell').text
+                entry[i-1] = self.driver.find_element(By.ID, long_id + '0' + str(i) +'_DataCell').text
+
+                if label == 'Author:':
+                    author_row = i
+                elif label == 'Publication Year :':
+                    pubyear_row = i
+
             else:
-                entry[i-1] = self.driver.find_element(By.ID, 'ctl00_ctl00_webopacContentHolder_detailContent_BibliographicDetail_BibDetailRepeater_ctl'+ str(i) +'_DataCell').text
-        
+                label = self.driver.find_element(By.ID, long_id + str(i) + '_LabelCell').text
+                entry[i-1] = self.driver.find_element(By.ID, long_id + str(i) +'_DataCell').text
+                
+                if label == 'Author:':
+                    author_row = i
+                elif label == 'Publication Year :':
+                    pubyear_row = i
+
+        diff = pubyear_row - author_row
+        for j in range(1,diff):
+            entry[author_row - 1] += '; ' + entry[author_row]
+            entry.pop(author_row)
+
         print(entry)
 
         dataframe = pd.DataFrame([entry])
